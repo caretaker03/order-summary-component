@@ -112,3 +112,15 @@ button {
 .btn2:hover {
     color:hsl(223, 47%, 23%);
 }
+
+@media screen and (min-width: 480px) {
+    .main{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main{
+        width: 100%;
+    }
+}
