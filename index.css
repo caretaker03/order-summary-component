@@ -112,14 +112,19 @@ button {
 .btn2:hover {
     color:hsl(223, 47%, 23%);
 }
-
 @media screen and (min-width: 480px) {
     .main{
         width: 30%;
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1000px) {
+    .main{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 550px) {
     .main{
         width: 100%;
     }
